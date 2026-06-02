@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="24128" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24063"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="ktm-9D-1Nd" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="2sC-Wq-KkM" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="dRQ-dg-jAM" customClass="WUCameraView" customModule="Toupi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" tag="1002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wKE-Gv-nut">
+                    <rect key="frame" x="241" y="579" width="92" height="128"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="appleSubmit"/>
+                    <connections>
+                        <action selector="publishPopupViewPhotoAndVideoClick:" destination="dRQ-dg-jAM" eventType="touchUpInside" id="Jgb-kw-uew"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6DE-3v-n9a">
+                    <rect key="frame" x="60" y="579" width="90" height="128"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="manConfigRegister_d3"/>
+                    <connections>
+                        <action selector="publishPopupViewPhotoAndVideoClick:" destination="dRQ-dg-jAM" eventType="touchUpInside" id="DGf-S6-i02"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1003" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uhw-Zt-fO6">
+                    <rect key="frame" x="174" y="741" width="45" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="45.04" id="R6y-dF-qc6"/>
+                        <constraint firstAttribute="height" constant="45.01" id="biS-cu-f0F"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="responseVideosToupi"/>
+                    <connections>
+                        <action selector="publishPopupViewPhotoAndVideoClick:" destination="dRQ-dg-jAM" eventType="touchUpInside" id="sgQ-Wj-5ye"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="QdR-Wr-ICO"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="uhw-Zt-fO6" firstAttribute="centerX" secondItem="dRQ-dg-jAM" secondAttribute="centerX" id="2Se-9O-yq5"/>
+                <constraint firstAttribute="bottom" secondItem="6DE-3v-n9a" secondAttribute="bottom" constant="145.02" id="lbI-Xf-jnZ"/>
+                <constraint firstAttribute="bottom" secondItem="uhw-Zt-fO6" secondAttribute="bottom" constant="66.01" id="hGK-Io-Wep"/>
+                <constraint firstItem="QdR-Wr-ICO" firstAttribute="trailing" secondItem="wKE-Gv-nut" secondAttribute="trailing" constant="59.98" id="r8e-ie-DPX"/>
+                <constraint firstItem="6DE-3v-n9a" firstAttribute="leading" secondItem="QdR-Wr-ICO" secondAttribute="leading" constant="60.02" id="Rfd-zr-t38"/>
+                <constraint firstAttribute="bottom" secondItem="wKE-Gv-nut" secondAttribute="bottom" constant="145.02" id="DxF-PS-vCA"/>
+            </constraints>
+            <connections>
+                <outlet property="diamonds_insufficient_view" destination="5x5-r7-tFs" id="pn5-9Y-GrA"/>
+            </connections>
+            <point key="canvasLocation" x="136.64122137404578" y="126.7605633802817"/>
+        </view>
+        <view contentMode="scaleToFill" id="5x5-r7-tFs">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PBb-yq-qHg">
+                    <rect key="frame" x="59" y="254.66666666666663" width="275" height="343"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="strSize_zh" translatesAutoresizingMaskIntoConstraints="NO" id="yxL-p5-Vws">
+                            <rect key="frame" x="0.0" y="0.0" width="275" height="343"/>
+                        </imageView>
+                        <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KDb-aT-gUv">
+                            <rect key="frame" x="20" y="243" width="108" height="40"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="stackNickConfig"/>
+                            <connections>
+                                <action selector="diamondsInsufficientViewCancelAndConfirm:" destination="dRQ-dg-jAM" eventType="touchUpInside" id="tHt-Rw-RzF"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2zE-QG-9gh">
+                            <rect key="frame" x="147" y="243" width="108" height="40"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="selectDefaul"/>
+                            <connections>
+                                <action selector="diamondsInsufficientViewCancelAndConfirm:" destination="dRQ-dg-jAM" eventType="touchUpInside" id="oMr-Hg-6vb"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="yxL-p5-Vws" secondAttribute="bottom" id="Q5z-KR-Cw2"/>
+                        <constraint firstItem="yxL-p5-Vws" firstAttribute="leading" secondItem="PBb-yq-qHg" secondAttribute="leading" id="UF7-7a-Gbc"/>
+                        <constraint firstAttribute="trailing" secondItem="yxL-p5-Vws" secondAttribute="trailing" id="KL2-xX-LSL"/>
+                        <constraint firstItem="yxL-p5-Vws" firstAttribute="top" secondItem="PBb-yq-qHg" secondAttribute="top" id="vGm-7D-W20"/>
+                        <constraint firstAttribute="bottom" secondItem="KDb-aT-gUv" secondAttribute="bottom" constant="60.02" id="YLk-Ew-pFq"/>
+                        <constraint firstAttribute="bottom" secondItem="2zE-QG-9gh" secondAttribute="bottom" constant="59.95" id="3lO-em-blS"/>
+                        <constraint firstAttribute="trailing" secondItem="2zE-QG-9gh" secondAttribute="trailing" constant="20.02" id="I8r-Ry-guV"/>
+                        <constraint firstAttribute="height" constant="343.02" id="Bfk-1k-HIr"/>
+                        <constraint firstAttribute="width" constant="275.02" id="BfH-Fc-sF7"/>
+                        <constraint firstItem="KDb-aT-gUv" firstAttribute="leading" secondItem="PBb-yq-qHg" secondAttribute="leading" constant="19.99" id="ybM-vT-BbM"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Eor-xO-PEF"/>
+            <color key="backgroundColor" white="0.0" alpha="0.55000000000000004" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="PBb-yq-qHg" firstAttribute="centerY" secondItem="5x5-r7-tFs" secondAttribute="centerY" id="UZ3-QP-lMH"/>
+                <constraint firstItem="PBb-yq-qHg" firstAttribute="centerX" secondItem="5x5-r7-tFs" secondAttribute="centerX" id="q5n-fA-Lzm"/>
+            </constraints>
+            <point key="canvasLocation" x="1040" y="120"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="responseVideosToupi" width="32" height="32"/>
+        <image name="manConfigRegister_d3" width="90" height="128"/>
+        <image name="appleSubmit" width="92" height="128"/>
+        <image name="selectDefaul" width="108" height="40"/>
+        <image name="strSize_zh" width="275" height="343"/>
+        <image name="stackNickConfig" width="108" height="40"/>
+    </resources>
+</document>

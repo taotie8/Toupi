@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="24128" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24063"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="ktm-9D-1Nd" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="2sC-Wq-KkM" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="157" id="AXw-tG-cAz" customClass="LTextSettingCell" customModule="Toupi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="165"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AXw-tG-cAz" id="8d3-ga-LmS">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="165"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fromBothLogout" translatesAutoresizingMaskIntoConstraints="NO" id="FWR-an-ou3">
+                        <rect key="frame" x="17" y="12" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40.02" id="DYz-Qd-1tN"/>
+                            <constraint firstAttribute="height" constant="39.99" id="Gvu-w8-RlV"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IOM-6b-IFU">
+                        <rect key="frame" x="69" y="22.333333333333336" width="42.333333333333343" height="19.333333333333336"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lu4-fy-PVL">
+                        <rect key="frame" x="231" y="16" width="72" height="32"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" backgroundImage="alertClose"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Every note tells a story 🎶Here’s my handmade melody. Care to listen?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="llx-6O-jFt">
+                        <rect key="frame" x="17" y="64" width="286" height="36"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.72156862745098038" green="0.71764705882352942" blue="0.73725490196078436" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Comments" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="06O-dw-vxP">
+                        <rect key="frame" x="17" y="132" width="94" height="21"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                        <color key="textColor" red="1" green="1" blue="0.14901960784313725" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Yu-7D-frX">
+                        <rect key="frame" x="20" y="12" width="90" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90.02" id="zhr-aN-d5A"/>
+                            <constraint firstAttribute="height" constant="39.98" id="L9b-xm-9Lm"/>
+                        </constraints>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="llx-6O-jFt" firstAttribute="top" secondItem="FWR-an-ou3" secondAttribute="bottom" constant="12.02" id="dJF-Pj-3p4"/>
+                    <constraint firstAttribute="bottom" secondItem="06O-dw-vxP" secondAttribute="bottom" constant="11.99" id="kqX-Db-k8t"/>
+                    <constraint firstItem="IOM-6b-IFU" firstAttribute="centerY" secondItem="FWR-an-ou3" secondAttribute="centerY" id="sKo-Cf-55F"/>
+                    <constraint firstItem="FWR-an-ou3" firstAttribute="top" secondItem="8d3-ga-LmS" secondAttribute="top" constant="11.99" id="TyD-CJ-lq1"/>
+                    <constraint firstItem="06O-dw-vxP" firstAttribute="top" secondItem="llx-6O-jFt" secondAttribute="bottom" constant="31.98" id="wvJ-ct-rdD"/>
+                    <constraint firstItem="IOM-6b-IFU" firstAttribute="leading" secondItem="FWR-an-ou3" secondAttribute="trailing" constant="11.99" id="a1G-8h-9vt"/>
+                    <constraint firstItem="FWR-an-ou3" firstAttribute="leading" secondItem="8d3-ga-LmS" secondAttribute="leading" constant="16.99" id="KXh-3P-Y2X"/>
+                    <constraint firstItem="06O-dw-vxP" firstAttribute="leading" secondItem="8d3-ga-LmS" secondAttribute="leading" constant="17.01" id="pdn-hq-oyn"/>
+                    <constraint firstAttribute="trailing" secondItem="llx-6O-jFt" secondAttribute="trailing" constant="17.01" id="NOX-oj-KuV"/>
+                    <constraint firstItem="llx-6O-jFt" firstAttribute="leading" secondItem="8d3-ga-LmS" secondAttribute="leading" constant="17.02" id="C1j-KT-VIo"/>
+                    <constraint firstItem="2Yu-7D-frX" firstAttribute="top" secondItem="8d3-ga-LmS" secondAttribute="top" constant="11.98" id="Iez-Kh-ezq"/>
+                    <constraint firstItem="2Yu-7D-frX" firstAttribute="leading" secondItem="8d3-ga-LmS" secondAttribute="leading" constant="20.04" id="8ft-9E-Jgw"/>
+                    <constraint firstAttribute="trailing" secondItem="lu4-fy-PVL" secondAttribute="trailing" constant="16.98" id="3eQ-Kh-thv"/>
+                    <constraint firstItem="lu4-fy-PVL" firstAttribute="centerY" secondItem="FWR-an-ou3" secondAttribute="centerY" id="zgO-Av-PrY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="fgz-aY-AiK"/>
+            <connections>
+                <outlet property="center_user_button" destination="2Yu-7D-frX" id="wab-2r-glQ"/>
+                <outlet property="content_music_label" destination="llx-6O-jFt" id="XAl-au-JC3"/>
+                <outlet property="follow_music_tap" destination="lu4-fy-PVL" id="7Pd-Pf-eXY"/>
+                <outlet property="header_music_imageView" destination="FWR-an-ou3" id="N7D-vO-FUX"/>
+                <outlet property="name_music_label" destination="IOM-6b-IFU" id="JPo-R5-wj7"/>
+            </connections>
+            <point key="canvasLocation" x="186" y="12"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="fromBothLogout" width="42" height="42"/>
+        <image name="alertClose" width="72" height="32"/>
+    </resources>
+</document>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="24128" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24063"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="ktm-9D-1Nd" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="2sC-Wq-KkM" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="83" id="AXw-tG-cAz" customClass="NContainerFollowCell" customModule="Toupi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="83"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AXw-tG-cAz" id="8d3-ga-LmS">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="83"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fromBothLogout" translatesAutoresizingMaskIntoConstraints="NO" id="PYf-LF-rMx">
+                        <rect key="frame" x="17" y="12" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="23.98" id="MlU-Cp-WkC"/>
+                            <constraint firstAttribute="height" constant="24.03" id="1ay-5Q-0zr"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cyrus Pitts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mYu-a0-j9b">
+                        <rect key="frame" x="49.000000000000007" y="16.333333333333332" width="71.666666666666686" height="15.666666666666668"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UAg-JZ-V33">
+                        <rect key="frame" x="264" y="8" width="56" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="56.05" id="mae-kW-b75"/>
+                            <constraint firstAttribute="height" constant="31.96" id="YFn-G8-B5H"/>
+                        </constraints>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" image="vookLabelUpdate_5"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iEn-aZ-LSr">
+                        <rect key="frame" x="17" y="44" width="286" height="15.666666666666664"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.72156862745098038" green="0.71764705882352942" blue="0.73725490196078436" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="UAg-JZ-V33" secondAttribute="trailing" id="BCV-nZ-k2g"/>
+                    <constraint firstItem="PYf-LF-rMx" firstAttribute="top" secondItem="8d3-ga-LmS" secondAttribute="top" constant="11.98" id="gFy-jp-Ynr"/>
+                    <constraint firstItem="iEn-aZ-LSr" firstAttribute="leading" secondItem="8d3-ga-LmS" secondAttribute="leading" constant="16.99" id="9jO-3J-wno"/>
+                    <constraint firstItem="iEn-aZ-LSr" firstAttribute="top" secondItem="PYf-LF-rMx" secondAttribute="bottom" constant="8.02" id="dr7-tQ-V0j"/>
+                    <constraint firstAttribute="trailing" secondItem="iEn-aZ-LSr" secondAttribute="trailing" constant="17.03" id="8BP-8f-qRm"/>
+                    <constraint firstItem="UAg-JZ-V33" firstAttribute="centerY" secondItem="PYf-LF-rMx" secondAttribute="centerY" id="Pxw-Mj-GAw"/>
+                    <constraint firstItem="mYu-a0-j9b" firstAttribute="leading" secondItem="PYf-LF-rMx" secondAttribute="trailing" constant="7.99" id="7wL-wE-AbF"/>
+                    <constraint firstItem="mYu-a0-j9b" firstAttribute="centerY" secondItem="PYf-LF-rMx" secondAttribute="centerY" id="Tek-lm-kXC"/>
+                    <constraint firstItem="PYf-LF-rMx" firstAttribute="leading" secondItem="8d3-ga-LmS" secondAttribute="leading" constant="16.98" id="7Ce-rL-8Su"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="iEn-aZ-LSr" secondAttribute="bottom" constant="3.98" id="364-oB-hPL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="fgz-aY-AiK"/>
+            <connections>
+                <outlet property="comment_content_label" destination="iEn-aZ-LSr" id="0o0-X3-hfb"/>
+                <outlet property="comment_header_imageView" destination="PYf-LF-rMx" id="MEJ-gT-JwJ"/>
+                <outlet property="comment_tap" destination="UAg-JZ-V33" id="S1a-MB-eMo"/>
+                <outlet property="comment_user_name_label" destination="mYu-a0-j9b" id="OMA-yR-64e"/>
+            </connections>
+            <point key="canvasLocation" x="74.809160305343511" y="1.0563380281690142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="fromBothLogout" width="42" height="42"/>
+        <image name="vookLabelUpdate_5" width="24" height="24"/>
+    </resources>
+</document>

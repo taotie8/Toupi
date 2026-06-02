@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="24128" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24063"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="ktm-9D-1Nd" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="2sC-Wq-KkM" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="7PX-lU-Gpl" customClass="ECustomCell" customModule="Toupi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="348" height="410"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="348" height="410"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="G5a-Rq-qa0">
+                        <rect key="frame" x="0.0" y="16" width="348" height="343"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="343.01" id="gBB-sd-E1O"/>
+                        </constraints>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="6wi-ac-A2P">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="toupi_home_videos🔥" translatesAutoresizingMaskIntoConstraints="NO" id="tSk-ue-Dsc">
+                        <rect key="frame" x="17" y="383" width="89" height="24"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="TmG-9r-lHK"/>
+            <constraints>
+                <constraint firstItem="G5a-Rq-qa0" firstAttribute="leading" secondItem="7PX-lU-Gpl" secondAttribute="leading" id="RGc-dm-smF"/>
+                <constraint firstItem="tSk-ue-Dsc" firstAttribute="top" secondItem="G5a-Rq-qa0" secondAttribute="bottom" constant="24.03" id="VbZ-II-d7p"/>
+                <constraint firstItem="tSk-ue-Dsc" firstAttribute="leading" secondItem="7PX-lU-Gpl" secondAttribute="leading" constant="17.02" id="M6U-lw-MOY"/>
+                <constraint firstItem="G5a-Rq-qa0" firstAttribute="top" secondItem="7PX-lU-Gpl" secondAttribute="top" constant="16.01" id="CQK-Bk-Efv"/>
+                <constraint firstAttribute="trailing" secondItem="G5a-Rq-qa0" secondAttribute="trailing" id="AEn-2Y-o2y"/>
+            </constraints>
+            <size key="customSize" width="348" height="197"/>
+            <connections>
+                <outlet property="collectionView" destination="G5a-Rq-qa0" id="8ns-Tl-cUG"/>
+            </connections>
+            <point key="canvasLocation" x="-26" y="-23"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="toupi_home_videos🔥" width="89" height="24"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

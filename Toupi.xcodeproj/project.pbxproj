@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48732ZC8133194G9CT406P86 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = N4S2PM1W2QR8X39KJ85AU0SE /* SDWebImage */; };
+		BN447K0817267M3U014R7456 /* NCommentRechController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DJ93584F6G2BHE0A4555516C /* NCommentRechController.swift */; };
+		CH149588FEZ8JFH5V2S506I1 /* HXBPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = GMM169D78NS74XD7IX96823F /* HXBPlayerController.swift */; };
+		CI0O0382TXG34231Y741426E /* RChatDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = WYDZ40UX230MU24X63663133 /* RChatDetailsView.swift */; };
+		GED66QU1Q85A4L0M1Q024183 /* OSignResponseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = LV4RB41802CT6EKN1193W042 /* OSignResponseController.swift */; };
+		GF625M1U098X8979N659356D /* GDYRecommendModityObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = TE592G9174RV67J3M8319G3J /* GDYRecommendModityObject.swift */; };
+		GW705W406K7819I9A4052790 /* QDPlayerObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = QB92D5D5NS14B6H16845489B /* QDPlayerObject.swift */; };
+		JXM8U2463F820J8D4099D6U8 /* VLMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = KC49BM86W7292H9431905O35 /* VLMainView.swift */; };
+		LG5B8801953P16100110C904 /* AVDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = TRTC0E7D094F18MVW33D2N9W /* AVDetailsController.swift */; };
+		LWV13N8802O5194C4NH2YFQ6 /* HUDContainerTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = IXG269170JVDG5S73ADT48KV /* HUDContainerTableController.swift */; };
+		LYIY5088LTMXML28C722M5F3 /* IPostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = RPT5IS7U5411T86R708JNV32 /* IPostController.swift */; };
+		OD048596J5XZ2D629VLCPD02 /* FSOModityHomepageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = XJP1452879DC6440752J46NT /* FSOModityHomepageView.swift */; };
+		OT6R3275T21E250621628O43 /* NVookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = PM76HY7Z5O064I692B691835 /* NVookController.swift */; };
+		PQE555ZW8Q0RN7406J274017 /* NPopupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = LT98H21739BEGVP97971Q387 /* NPopupController.swift */; };
+		PV705GCJV0J45100V43T06T6 /* WKKRequstController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ZH30H3065E6456S0Y8YT03P9 /* WKKRequstController.swift */; };
+		QG9LOV510HPQ3P7B889MZR45 /* QNHNewsObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = GC36G53PV3J7T68894304369 /* QNHNewsObject.swift */; };
+		RZS49Q8QP3R57V502QIS1J5U /* Pods_Toupi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 205C0C29D70Y5284936Z494C /* Pods_Toupi.framework */; };
+		SV7E476P442Q74E0MQ02131D /* QPWVookObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = SZ5N98432H3D316541L8M60N /* QPWVookObject.swift */; };
+		TV20KX5T5286HTS93IV1U52P /* XZNPopupMoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ZZ8Y0349Q1U85858352CAV2K /* XZNPopupMoreController.swift */; };
+		TW511I3D917F3462P02PD5L7 /* AVookTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AO61T17B25823MF8UK5576WI /* AVookTextView.swift */; };
+		UMAI2W6405OE9Q1B5B658098 /* OBMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DI95A21H410F749H83Y1KCT9 /* OBMainView.swift */; };
+		WM65G3285F5TP988F2339GS9 /* XQRecommendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = JG514TO40567307V9WQH03NS /* XQRecommendView.swift */; };
+		WR42Y5364770XQ56DE54232C /* YWManagerObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = RE800056428B6273B3823D5N /* YWManagerObject.swift */; };
+		XF0N2TP2309RE66AMS0J5444 /* WTextObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = TH2S2VP431930J088359Y756 /* WTextObject.swift */; };
+		XKW881733U6D099AI7T40F15 /* YCDelegateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AN67333N4427O85L951GG260 /* YCDelegateObject.swift */; };
+		ZG2R28Y24QJ9B85143620FE8 /* PVookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = YO0T7DY8109S25Q8451AEY53 /* PVookController.swift */; };
+		ZN00B2005Y22570AB4F9AZT3 /* NFCommentsEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ZW0PP4341QO7G4208UE2B9TV /* NFCommentsEditView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0M494RW826J42866L276T319 /* Toupi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toupi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		205C0C29D70Y5284936Z494C /* Pods_Toupi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Toupi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4554Q414504913QA928ED840 /* Pods-Toupi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toupi.debug.xcconfig"; path = "Target Support Files/Pods-Toupi/Pods-Toupi.debug.xcconfig"; sourceTree = "<group>"; };
+		66U02Q5XF0G0O9I2139H618D /* Pods-Toupi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toupi.release.xcconfig"; path = "Target Support Files/Pods-Toupi/Pods-Toupi.release.xcconfig"; sourceTree = "<group>"; };
+		AN67333N4427O85L951GG260 /* YCDelegateObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = YCDelegateObject.swift; sourceTree = "<group>"; };
+		AO61T17B25823MF8UK5576WI /* AVookTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = AVookTextView.swift; sourceTree = "<group>"; };
+		DI95A21H410F749H83Y1KCT9 /* OBMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = OBMainView.swift; sourceTree = "<group>"; };
+		DJ93584F6G2BHE0A4555516C /* NCommentRechController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = NCommentRechController.swift; sourceTree = "<group>"; };
+		GC36G53PV3J7T68894304369 /* QNHNewsObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = QNHNewsObject.swift; sourceTree = "<group>"; };
+		GMM169D78NS74XD7IX96823F /* HXBPlayerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = HXBPlayerController.swift; sourceTree = "<group>"; };
+		IXG269170JVDG5S73ADT48KV /* HUDContainerTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = HUDContainerTableController.swift; sourceTree = "<group>"; };
+		JG514TO40567307V9WQH03NS /* XQRecommendView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = XQRecommendView.swift; sourceTree = "<group>"; };
+		KC49BM86W7292H9431905O35 /* VLMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = VLMainView.swift; sourceTree = "<group>"; };
+		LT98H21739BEGVP97971Q387 /* NPopupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = NPopupController.swift; sourceTree = "<group>"; };
+		LV4RB41802CT6EKN1193W042 /* OSignResponseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = OSignResponseController.swift; sourceTree = "<group>"; };
+		PM76HY7Z5O064I692B691835 /* NVookController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = NVookController.swift; sourceTree = "<group>"; };
+		QB92D5D5NS14B6H16845489B /* QDPlayerObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = QDPlayerObject.swift; sourceTree = "<group>"; };
+		RE800056428B6273B3823D5N /* YWManagerObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = YWManagerObject.swift; sourceTree = "<group>"; };
+		RPT5IS7U5411T86R708JNV32 /* IPostController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = IPostController.swift; sourceTree = "<group>"; };
+		SZ5N98432H3D316541L8M60N /* QPWVookObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = QPWVookObject.swift; sourceTree = "<group>"; };
+		TE592G9174RV67J3M8319G3J /* GDYRecommendModityObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = GDYRecommendModityObject.swift; sourceTree = "<group>"; };
+		TH2S2VP431930J088359Y756 /* WTextObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = WTextObject.swift; sourceTree = "<group>"; };
+		TRTC0E7D094F18MVW33D2N9W /* AVDetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = AVDetailsController.swift; sourceTree = "<group>"; };
+		WYDZ40UX230MU24X63663133 /* RChatDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = RChatDetailsView.swift; sourceTree = "<group>"; };
+		XJP1452879DC6440752J46NT /* FSOModityHomepageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = FSOModityHomepageView.swift; sourceTree = "<group>"; };
+		YO0T7DY8109S25Q8451AEY53 /* PVookController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = PVookController.swift; sourceTree = "<group>"; };
+		ZH30H3065E6456S0Y8YT03P9 /* WKKRequstController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = WKKRequstController.swift; sourceTree = "<group>"; };
+		ZW0PP4341QO7G4208UE2B9TV /* NFCommentsEditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = NFCommentsEditView.swift; sourceTree = "<group>"; };
+		ZZ8Y0349Q1U85858352CAV2K /* XZNPopupMoreController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.swift; path = XZNPopupMoreController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		Y4234418JR0CG0C7998295H7 /* Exceptions for "Toupi" folder in "Toupi" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 02206VM83X4529957222K930 /* Toupi */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		434K4172O85YQ474QNBDF35B /* Toupi */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				Y4234418JR0CG0C7998295H7 /* Exceptions for "Toupi" folder in "Toupi" target */,
+			);
+			path = Toupi;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A385U258571108J908224MG /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48732ZC8133194G9CT406P86 /* SDWebImage in Frameworks */,
+				RZS49Q8QP3R57V502QIS1J5U /* Pods_Toupi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F151N25262SOI5B43U2H6I4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0M494RW826J42866L276T319 /* Toupi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71Y5137193S3DP21BN2N2847 = {
+			isa = PBXGroup;
+			children = (
+				434K4172O85YQ474QNBDF35B /* Toupi */,
+				1F151N25262SOI5B43U2H6I4 /* Products */,
+				S4792J6N240443213I105M8N /* Pods */,
+				978Q93056O1448835P061U1C /* Frameworks */,
+				CR5CN6F6L40R43086TS6339N /* dirname */,
+			);
+			sourceTree = "<group>";
+		};
+		978Q93056O1448835P061U1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				205C0C29D70Y5284936Z494C /* Pods_Toupi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CR5CN6F6L40R43086TS6339N /* dirname */ = {
+			isa = PBXGroup;
+			children = (
+				QB92D5D5NS14B6H16845489B /* QDPlayerObject.swift */,
+				LV4RB41802CT6EKN1193W042 /* OSignResponseController.swift */,
+				XJP1452879DC6440752J46NT /* FSOModityHomepageView.swift */,
+				IXG269170JVDG5S73ADT48KV /* HUDContainerTableController.swift */,
+				SZ5N98432H3D316541L8M60N /* QPWVookObject.swift */,
+				TH2S2VP431930J088359Y756 /* WTextObject.swift */,
+				GC36G53PV3J7T68894304369 /* QNHNewsObject.swift */,
+				ZH30H3065E6456S0Y8YT03P9 /* WKKRequstController.swift */,
+				TE592G9174RV67J3M8319G3J /* GDYRecommendModityObject.swift */,
+				KC49BM86W7292H9431905O35 /* VLMainView.swift */,
+				AO61T17B25823MF8UK5576WI /* AVookTextView.swift */,
+				JG514TO40567307V9WQH03NS /* XQRecommendView.swift */,
+				RE800056428B6273B3823D5N /* YWManagerObject.swift */,
+				GMM169D78NS74XD7IX96823F /* HXBPlayerController.swift */,
+				YO0T7DY8109S25Q8451AEY53 /* PVookController.swift */,
+				TRTC0E7D094F18MVW33D2N9W /* AVDetailsController.swift */,
+				AN67333N4427O85L951GG260 /* YCDelegateObject.swift */,
+				ZZ8Y0349Q1U85858352CAV2K /* XZNPopupMoreController.swift */,
+				DI95A21H410F749H83Y1KCT9 /* OBMainView.swift */,
+				DJ93584F6G2BHE0A4555516C /* NCommentRechController.swift */,
+				LT98H21739BEGVP97971Q387 /* NPopupController.swift */,
+				WYDZ40UX230MU24X63663133 /* RChatDetailsView.swift */,
+				PM76HY7Z5O064I692B691835 /* NVookController.swift */,
+				ZW0PP4341QO7G4208UE2B9TV /* NFCommentsEditView.swift */,
+				RPT5IS7U5411T86R708JNV32 /* IPostController.swift */,
+			);
+			path = dirname;
+			sourceTree = "<group>";
+		};
+		S4792J6N240443213I105M8N /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4554Q414504913QA928ED840 /* Pods-Toupi.debug.xcconfig */,
+				66U02Q5XF0G0O9I2139H618D /* Pods-Toupi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02206VM83X4529957222K930 /* Toupi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53H290VAJ68JWO7600V289NJ /* Build configuration list for PBXNativeTarget "Toupi" */;
+			buildPhases = (
+				71PM5183I17V654VPY386HK2 /* [CP] Check Pods Manifest.lock */,
+				72191T6180205G31933A4319 /* Sources */,
+				0A385U258571108J908224MG /* Frameworks */,
+				A63531Z6168096690681330L /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				434K4172O85YQ474QNBDF35B /* Toupi */,
+			);
+			name = Toupi;
+			productName = Toupi;
+			productReference = 0M494RW826J42866L276T319 /* Toupi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2N1133003E33O87A48K04204 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					02206VM83X4529957222K930 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 4NW9I902A6E4427M1Q69JL9X /* Build configuration list for PBXProject "Toupi" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71Y5137193S3DP21BN2N2847;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				MNI55C331822F53T6Q917HG4 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1F151N25262SOI5B43U2H6I4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02206VM83X4529957222K930 /* Toupi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A63531Z6168096690681330L /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71PM5183I17V654VPY386HK2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Toupi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72191T6180205G31933A4319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				GW705W406K7819I9A4052790 /* QDPlayerObject.swift in Sources */,
+				GED66QU1Q85A4L0M1Q024183 /* OSignResponseController.swift in Sources */,
+				OD048596J5XZ2D629VLCPD02 /* FSOModityHomepageView.swift in Sources */,
+				LWV13N8802O5194C4NH2YFQ6 /* HUDContainerTableController.swift in Sources */,
+				SV7E476P442Q74E0MQ02131D /* QPWVookObject.swift in Sources */,
+				XF0N2TP2309RE66AMS0J5444 /* WTextObject.swift in Sources */,
+				QG9LOV510HPQ3P7B889MZR45 /* QNHNewsObject.swift in Sources */,
+				PV705GCJV0J45100V43T06T6 /* WKKRequstController.swift in Sources */,
+				GF625M1U098X8979N659356D /* GDYRecommendModityObject.swift in Sources */,
+				JXM8U2463F820J8D4099D6U8 /* VLMainView.swift in Sources */,
+				TW511I3D917F3462P02PD5L7 /* AVookTextView.swift in Sources */,
+				WM65G3285F5TP988F2339GS9 /* XQRecommendView.swift in Sources */,
+				WR42Y5364770XQ56DE54232C /* YWManagerObject.swift in Sources */,
+				CH149588FEZ8JFH5V2S506I1 /* HXBPlayerController.swift in Sources */,
+				ZG2R28Y24QJ9B85143620FE8 /* PVookController.swift in Sources */,
+				LG5B8801953P16100110C904 /* AVDetailsController.swift in Sources */,
+				XKW881733U6D099AI7T40F15 /* YCDelegateObject.swift in Sources */,
+				TV20KX5T5286HTS93IV1U52P /* XZNPopupMoreController.swift in Sources */,
+				UMAI2W6405OE9Q1B5B658098 /* OBMainView.swift in Sources */,
+				BN447K0817267M3U014R7456 /* NCommentRechController.swift in Sources */,
+				PQE555ZW8Q0RN7406J274017 /* NPopupController.swift in Sources */,
+				CI0O0382TXG34231Y741426E /* RChatDetailsView.swift in Sources */,
+				OT6R3275T21E250621628O43 /* NVookController.swift in Sources */,
+				ZN00B2005Y22570AB4F9AZT3 /* NFCommentsEditView.swift in Sources */,
+				LYIY5088LTMXML28C722M5F3 /* IPostController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5GZ8919U89407V4PD20682S2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66U02Q5XF0G0O9I2139H618D /* Pods-Toupi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = K2D8KTNH2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Toupi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Toupi;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Toupi requires camera access to capture photos and record videos for creating and sharing content within the app. Your photos and videos may be used to personalize your profile or share posts with others. All media is stored securely on your device and will only be shared with your permission. Your privacy and security are important to us.\"";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Toupi requires microphone access to record audio when capturing videos within the app. Audio is stored on your device and will only be shared as part of the content you choose to upload. Your privacy and security are important to us.\"";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow Toupi to choose photos and videos for posts.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hukatou.pinine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = dev02;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		G64VD23Q1701P3CY5K2B0XF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4554Q414504913QA928ED840 /* Pods-Toupi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Toupi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Toupi;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Toupi requires camera access to capture photos and record videos for creating and sharing content within the app. Your photos and videos may be used to personalize your profile or share posts with others. All media is stored securely on your device and will only be shared with your permission. Your privacy and security are important to us.\"";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Toupi requires microphone access to record audio when capturing videos within the app. Audio is stored on your device and will only be shared as part of the content you choose to upload. Your privacy and security are important to us.\"";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow Toupi to choose photos and videos for posts.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hukatou.pinine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		J1CL01PW844756NX1AI31944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		RYD306J2S48944336X5R4095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4NW9I902A6E4427M1Q69JL9X /* Build configuration list for PBXProject "Toupi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				RYD306J2S48944336X5R4095 /* Debug */,
+				J1CL01PW844756NX1AI31944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53H290VAJ68JWO7600V289NJ /* Build configuration list for PBXNativeTarget "Toupi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				G64VD23Q1701P3CY5K2B0XF5 /* Debug */,
+				5GZ8919U89407V4PD20682S2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		MNI55C331822F53T6Q917HG4 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.21.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		N4S2PM1W2QR8X39KJ85AU0SE /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = MNI55C331822F53T6Q917HG4 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2N1133003E33O87A48K04204 /* Project object */;
+}

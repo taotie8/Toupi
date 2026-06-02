@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="ktm-9D-1Nd" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="2sC-Wq-KkM" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="AXw-tG-cAz" customClass="NUEditFollowCell" customModule="Toupi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AXw-tG-cAz" id="8d3-ga-LmS">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qcv-kv-qOV">
+                        <rect key="frame" x="19" y="16" width="48" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="48.02" id="bJk-Mo-byZ"/>
+                            <constraint firstAttribute="width" constant="47.97" id="wN8-kV-Tgo"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XP7-V1-nLA">
+                        <rect key="frame" x="79" y="30.333333333333336" width="41.333333333333343" height="19.333333333333336"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aqu-vm-KLg">
+                        <rect key="frame" x="232" y="24" width="72" height="32"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" image="todayItem"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="XP7-V1-nLA" firstAttribute="centerY" secondItem="Qcv-kv-qOV" secondAttribute="centerY" id="D84-JK-aG0"/>
+                    <constraint firstItem="Qcv-kv-qOV" firstAttribute="leading" secondItem="8d3-ga-LmS" secondAttribute="leading" constant="18.96" id="GQc-3p-H6S"/>
+                    <constraint firstAttribute="bottom" secondItem="Qcv-kv-qOV" secondAttribute="bottom" constant="16.03" id="p4Z-MJ-a66"/>
+                    <constraint firstItem="Qcv-kv-qOV" firstAttribute="top" secondItem="8d3-ga-LmS" secondAttribute="top" constant="15.99" id="sUR-PR-jPf"/>
+                    <constraint firstAttribute="trailing" secondItem="aqu-vm-KLg" secondAttribute="trailing" constant="15.98" id="XaI-oV-Q4S"/>
+                    <constraint firstItem="XP7-V1-nLA" firstAttribute="leading" secondItem="Qcv-kv-qOV" secondAttribute="trailing" constant="12.01" id="CIS-se-3Uu"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="fgz-aY-AiK"/>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="aqu-vm-KLg" firstAttribute="centerY" secondItem="AXw-tG-cAz" secondAttribute="centerY" id="OSX-oY-N7n"/>
+            </constraints>
+            <connections>
+                <outlet property="profielnameLabel" destination="XP7-V1-nLA" id="Hoj-1G-gKD"/>
+                <outlet property="profileButton" destination="aqu-vm-KLg" id="RPi-qK-6lf"/>
+                <outlet property="profileHeaderImage" destination="Qcv-kv-qOV" id="lem-La-GHd"/>
+            </connections>
+            <point key="canvasLocation" x="131" y="-12"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="todayItem" width="72" height="32"/>
+    </resources>
+</document>

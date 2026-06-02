@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="24128" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24063"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="ktm-9D-1Nd" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="2sC-Wq-KkM" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="dRQ-dg-jAM" customClass="IIVVookChatView" customModule="Toupi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wlD-Qt-BiH">
+                    <rect key="frame" x="0.0" y="587" width="393" height="265"/>
+                    <subviews>
+                        <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9nj-Cm-fdX">
+                            <rect key="frame" x="17" y="36" width="359" height="52"/>
+                            <color key="backgroundColor" red="0.83921568627450982" green="0.25098039215686274" blue="0.94509803921568625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="52.05" id="96J-5a-zHt"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Report"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="26"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="reportAndBlockCancelAction:" destination="dRQ-dg-jAM" eventType="touchUpInside" id="XD8-il-uNI"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="1002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dSm-Is-ZTS">
+                            <rect key="frame" x="17" y="108" width="359" height="52"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="51.99" id="TBW-ud-rjx"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Block"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="26"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="reportAndBlockCancelAction:" destination="dRQ-dg-jAM" eventType="touchUpInside" id="Q1D-it-lV3"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a7A-8O-d7g">
+                            <rect key="frame" x="17" y="180" width="359" height="52"/>
+                            <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="52.01" id="UJa-ci-CCY"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Cancel">
+                                <color key="titleColor" red="0.5725490196078431" green="0.56862745098039214" blue="0.58039215686274503" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="26"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="reportAndBlockCancelAction:" destination="dRQ-dg-jAM" eventType="touchUpInside" id="BTt-MN-Hiq"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="9nj-Cm-fdX" firstAttribute="top" secondItem="wlD-Qt-BiH" secondAttribute="top" constant="35.97" id="M4v-fr-d1v"/>
+                        <constraint firstItem="dSm-Is-ZTS" firstAttribute="leading" secondItem="wlD-Qt-BiH" secondAttribute="leading" constant="17.01" id="7eA-33-gWd"/>
+                        <constraint firstAttribute="trailing" secondItem="a7A-8O-d7g" secondAttribute="trailing" constant="16.99" id="hdj-Om-2Lm"/>
+                        <constraint firstItem="dSm-Is-ZTS" firstAttribute="top" secondItem="9nj-Cm-fdX" secondAttribute="bottom" constant="20.01" id="LcZ-bX-y2e"/>
+                        <constraint firstAttribute="trailing" secondItem="9nj-Cm-fdX" secondAttribute="trailing" constant="17.02" id="YZb-np-d6a"/>
+                        <constraint firstAttribute="height" constant="265.02" id="9Mh-7C-Jz9"/>
+                        <constraint firstAttribute="trailing" secondItem="dSm-Is-ZTS" secondAttribute="trailing" constant="16.98" id="7mk-iw-bEd"/>
+                        <constraint firstItem="a7A-8O-d7g" firstAttribute="leading" secondItem="wlD-Qt-BiH" secondAttribute="leading" constant="16.99" id="aJg-q5-oWn"/>
+                        <constraint firstItem="9nj-Cm-fdX" firstAttribute="leading" secondItem="wlD-Qt-BiH" secondAttribute="leading" constant="17.01" id="RHG-O9-Mrb"/>
+                        <constraint firstItem="a7A-8O-d7g" firstAttribute="top" secondItem="dSm-Is-ZTS" secondAttribute="bottom" constant="20.02" id="zqw-rX-kcA"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="26"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="QdR-Wr-ICO"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.48999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="QdR-Wr-ICO" firstAttribute="trailing" secondItem="wlD-Qt-BiH" secondAttribute="trailing" id="J3f-R2-hPj"/>
+                <constraint firstItem="wlD-Qt-BiH" firstAttribute="leading" secondItem="QdR-Wr-ICO" secondAttribute="leading" id="alW-oW-Y9A"/>
+                <constraint firstAttribute="bottom" secondItem="wlD-Qt-BiH" secondAttribute="bottom" id="4Wj-D2-8hu"/>
+            </constraints>
+            <connections>
+                <outlet property="contentPanel" destination="wlD-Qt-BiH" id="xJf-kq-w3n"/>
+            </connections>
+            <point key="canvasLocation" x="-31" y="-13"/>
+        </view>
+    </objects>
+</document>

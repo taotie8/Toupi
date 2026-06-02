@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="ktm-9D-1Nd" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="2sC-Wq-KkM" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="7PX-lU-Gpl" customClass="LGRegisterFollowCell" customModule="Toupi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="165" height="220"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="165" height="220"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eulaSpinner" translatesAutoresizingMaskIntoConstraints="NO" id="s67-xw-EKS">
+                        <rect key="frame" x="0.0" y="0.0" width="165" height="220"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ixo-bq-dPs">
+                        <rect key="frame" x="12" y="12" width="76" height="32"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" backgroundImage="testReportedControllers"/>
+                        <state key="selected" backgroundImage="agrrmmentIndexHttp"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U87-ij-GHA">
+                        <rect key="frame" x="113" y="12" width="52" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="32.04" id="ALq-A2-ezb"/>
+                            <constraint firstAttribute="width" constant="51.99" id="Pyx-3I-Y2U"/>
+                        </constraints>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" image="vookLabelUpdate_5"/>
+                    </button>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fromBothLogout" translatesAutoresizingMaskIntoConstraints="NO" id="Dhj-qo-2N6">
+                        <rect key="frame" x="12" y="176" width="32" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="31.98" id="6EX-sQ-wGS"/>
+                            <constraint firstAttribute="height" constant="31.98" id="z5M-FH-6qQ"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PXe-42-qpn">
+                        <rect key="frame" x="56" y="183.66666666666666" width="36.666666666666657" height="17"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T3w-UL-OQQ">
+                        <rect key="frame" x="0.0" y="175" width="85" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="85.01" id="bUY-I2-kLp"/>
+                            <constraint firstAttribute="height" constant="34.98" id="v7R-1X-Ol2"/>
+                        </constraints>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="TmG-9r-lHK"/>
+            <constraints>
+                <constraint firstItem="ixo-bq-dPs" firstAttribute="top" secondItem="7PX-lU-Gpl" secondAttribute="top" constant="11.97" id="Nsz-ZT-HrN"/>
+                <constraint firstAttribute="bottom" secondItem="s67-xw-EKS" secondAttribute="bottom" id="UxU-zB-P1s"/>
+                <constraint firstItem="s67-xw-EKS" firstAttribute="top" secondItem="7PX-lU-Gpl" secondAttribute="top" id="WlJ-wT-Hmr"/>
+                <constraint firstAttribute="trailing" secondItem="s67-xw-EKS" secondAttribute="trailing" id="89c-NM-cYw"/>
+                <constraint firstItem="ixo-bq-dPs" firstAttribute="leading" secondItem="7PX-lU-Gpl" secondAttribute="leading" constant="11.99" id="EYh-Kh-OfD"/>
+                <constraint firstAttribute="bottom" secondItem="T3w-UL-OQQ" secondAttribute="bottom" constant="9.97" id="jK6-qU-PWq"/>
+                <constraint firstAttribute="trailing" secondItem="U87-ij-GHA" secondAttribute="trailing" id="h0n-UY-ck8"/>
+                <constraint firstItem="T3w-UL-OQQ" firstAttribute="leading" secondItem="7PX-lU-Gpl" secondAttribute="leading" id="54u-Tg-RPh"/>
+                <constraint firstItem="Dhj-qo-2N6" firstAttribute="leading" secondItem="7PX-lU-Gpl" secondAttribute="leading" constant="11.97" id="qgY-ya-Ce8"/>
+                <constraint firstItem="PXe-42-qpn" firstAttribute="centerY" secondItem="Dhj-qo-2N6" secondAttribute="centerY" id="mYW-Dc-ih4"/>
+                <constraint firstItem="PXe-42-qpn" firstAttribute="leading" secondItem="Dhj-qo-2N6" secondAttribute="trailing" constant="12.01" id="E0e-iR-xEb"/>
+                <constraint firstItem="U87-ij-GHA" firstAttribute="top" secondItem="7PX-lU-Gpl" secondAttribute="top" constant="12.05" id="JnH-UF-cAJ"/>
+                <constraint firstAttribute="bottom" secondItem="Dhj-qo-2N6" secondAttribute="bottom" constant="11.98" id="3ms-5q-ILC"/>
+                <constraint firstItem="s67-xw-EKS" firstAttribute="leading" secondItem="7PX-lU-Gpl" secondAttribute="leading" id="XYd-lP-O4T"/>
+            </constraints>
+            <connections>
+                <outlet property="photo_text_cell_imageView" destination="s67-xw-EKS" id="cOj-Wy-p1w"/>
+                <outlet property="photo_text_like_tap" destination="ixo-bq-dPs" id="G4c-rr-gta"/>
+                <outlet property="photo_text_right_tap" destination="U87-ij-GHA" id="aUH-Qf-yzS"/>
+                <outlet property="photo_text_user_center_tap" destination="T3w-UL-OQQ" id="9sZ-0Q-o5f"/>
+                <outlet property="photo_text_user_header_imageview" destination="Dhj-qo-2N6" id="Odw-aF-0NU"/>
+                <outlet property="photo_text_user_nickName_label" destination="PXe-42-qpn" id="jGl-eF-Thr"/>
+            </connections>
+            <point key="canvasLocation" x="-364" y="-37"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="fromBothLogout" width="42" height="42"/>
+        <image name="eulaSpinner" width="165" height="220"/>
+        <image name="testReportedControllers" width="76" height="32"/>
+        <image name="agrrmmentIndexHttp" width="76" height="32"/>
+        <image name="vookLabelUpdate_5" width="24" height="24"/>
+    </resources>
+</document>
