@@ -1,6 +1,6 @@
 
 import Foundation
-
+import Uzapitodu
 import UIKit
 
 @main
@@ -87,8 +87,13 @@ private var streamPoliticalDict: [String: Any]?
         
         MSPList.shared.vook_scanMalongConfig { _ in
         }
-        
+        Rukogimibugug.shared.configure()
         return true
+    }
+    
+    func application(_ application: UIApplication,
+                     didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        
     }
 
 }
